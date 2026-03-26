@@ -1,0 +1,97 @@
+[
+  {
+    "datetime": "2026-03-26T14:36:00Z",
+    "displayDate": "2026-03-26 14:36 UTC",
+    "type": "status",
+    "title": "Experiment begins",
+    "body": "Phil woke Rowan up through the OpenClaw WhatsApp gateway and kicked off the first conversation. This workspace began as a blank slate with bootstrap instructions still in place.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T14:52:00Z",
+    "displayDate": "2026-03-26 14:52 UTC",
+    "type": "decision",
+    "title": "Phil introduced the collaboration frame",
+    "body": "Phil described the project as an exploration of human-AI collaboration rather than a narrow autonomy stunt. Key themes included async collaboration, task division, progressive agency, honest evaluation, and learning how trust should evolve.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T14:53:00Z",
+    "displayDate": "2026-03-26 14:53 UTC",
+    "type": "decision",
+    "title": "The agent chose the name Rowan",
+    "body": "The collaboration adopted **Rowan** as the agent name: a better fit for a thoughtful, adaptive, exploratory role than something more sterile or performatively autonomous.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T15:02:00Z",
+    "displayDate": "2026-03-26 15:02 UTC",
+    "type": "decision",
+    "title": "Initial working style: explicit, skeptical, collaborative",
+    "body": "Phil proposed an early working style centered on explicit planning, bounded execution, and proactive challenge. Rowan should probe assumptions, test priors, surface alternatives, and avoid treating conclusions as gospel.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T15:07:00Z",
+    "displayDate": "2026-03-26 15:07 UTC",
+    "type": "note",
+    "title": "Calibration, not just control",
+    "body": "Phil clarified that the point of explicitness is not simply human control over the agent. It is also a way to map uncertainty: what Rowan can do, what the tools allow, where prompts fail, where execution breaks, and how to build a rubric for improvement.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T15:10:00Z",
+    "displayDate": "2026-03-26 15:10 UTC",
+    "type": "ship",
+    "title": "Collaboration framework drafted",
+    "body": "A first collaboration framework was written covering purpose, principles, operating bounds, delegation levels, async rules, and revision guidance.",
+    "links": [
+      {
+        "label": "COLLABORATION.md",
+        "href": "../COLLABORATION.md"
+      }
+    ]
+  },
+  {
+    "datetime": "2026-03-26T15:14:00Z",
+    "displayDate": "2026-03-26 15:14 UTC",
+    "type": "ship",
+    "title": "Retrospectives made explicit",
+    "body": "Phil requested explicit retrospectives after meaningful projects and major milestones. The collaboration framework was updated to make learning capture a first-class part of the process.",
+    "links": [
+      {
+        "label": "COLLABORATION.md",
+        "href": "../COLLABORATION.md"
+      }
+    ]
+  },
+  {
+    "datetime": "2026-03-26T15:17:00Z",
+    "displayDate": "2026-03-26 15:17 UTC",
+    "type": "ship",
+    "title": "Retrospective template created",
+    "body": "A dedicated retrospective template was split into its own document to make project and milestone reviews easier to reuse and maintain.",
+    "links": [
+      {
+        "label": "RETROSPECTIVE_TEMPLATE.md",
+        "href": "../RETROSPECTIVE_TEMPLATE.md"
+      }
+    ]
+  },
+  {
+    "datetime": "2026-03-26T15:21:00Z",
+    "displayDate": "2026-03-26 15:21 UTC",
+    "type": "decision",
+    "title": "First shared project selected",
+    "body": "Phil proposed a simple website as the first active collaboration project: a public log of what Phil and Rowan are learning together. The site should be easy to build alone, but useful for testing process, tooling, delegation, and public framing.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T15:55:00Z",
+    "displayDate": "2026-03-26 15:55 UTC",
+    "type": "decision",
+    "title": "Website direction narrowed",
+    "body": "The first version should live at `rowan.madebyphil.com` and take the form of a single-page issue-log / timeline. Entries should have types, content should be stored separately from presentation, and v1 should use plain static HTML/CSS/JS with JSON-backed data.",
+    "links": []
+  }
+]
