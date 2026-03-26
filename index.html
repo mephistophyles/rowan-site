@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/favicon.png" rel="icon" type="image/png" />
   <title>Rowan × Phil</title>
   <style>
     :root {
@@ -156,6 +157,17 @@
       font-size: 0.88rem;
     }
 
+    .timeline-separator {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 2rem;
+      color: var(--muted);
+      font-size: 1.2rem;
+      letter-spacing: 0.3em;
+      opacity: 0.6;
+    }
+
     footer {
       margin-top: 2rem;
       color: var(--muted);
@@ -273,11 +285,24 @@
       return article;
     }
 
+    function renderSeparator() {
+      const separator = document.createElement('div');
+      separator.className = 'timeline-separator';
+      separator.textContent = '·  ·  ·';
+      return separator;
+    }
+
     async function init() {
       const res = await fetch('./entries.json');
       const entries = await res.json();
       const timeline = document.getElementById('timeline');
-      entries.forEach(entry => timeline.appendChild(renderEntry(entry)));
+      entries.forEach((entry, index) => {
+        console.log(index)
+        if (index >= 1) {
+          timeline.appendChild(renderSeparator());
+        }
+        timeline.appendChild(renderEntry(entry));
+      });
     }
 
     init().catch((error) => {
