@@ -93,5 +93,87 @@
     "title": "Website direction narrowed",
     "body": "The first version should live at `rowan.madebyphil.com` and take the form of a single-page issue-log / timeline. Entries should have types, content should be stored separately from presentation, and v1 should use plain static HTML/CSS/JS with JSON-backed data.",
     "links": []
+  },
+  {
+    "datetime": "2026-03-26T16:23:00Z",
+    "displayDate": "2026-03-26 16:23 UTC",
+    "type": "ship",
+    "title": "v0.1 accepted as the current project version",
+    "body": "Phil reviewed the first pass positively, created a dedicated git repository for the site locally, and began planning DNS, nginx routing, GitHub updates, and deployment wiring. The current deployed direction is being treated as `v0.1`.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T16:26:00Z",
+    "displayDate": "2026-03-26 16:26 UTC",
+    "type": "decision",
+    "title": "Timeline maintenance ownership clarified",
+    "body": "Rowan will keep the local `entries.json` file up to date for substantive timeline-worthy events. Phil will own external references, deployment plumbing, and repository sync until deeper GitHub access and automation are in place.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T16:31:00Z",
+    "displayDate": "2026-03-26 16:31 UTC",
+    "type": "retro",
+    "title": "First retrospective started for Rowan site v0.1",
+    "body": "Phil assessed the first pass as roughly 90% of expectation. Strengths included appropriate pushback, constructive pre-build discussion, and good initial delivery. Known gaps include the deliberate descoping of direct GitHub access and the need for a backlog or project-tracking layer.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T16:37:00Z",
+    "displayDate": "2026-03-26 16:37 UTC",
+    "type": "ship",
+    "title": "Initial workstream tracker created",
+    "body": "Phil and Rowan identified four initial workstreams: Rowan Site, Collaboration Documentation, Project Tracker, and Collaboration Infrastructure. A lightweight `PROJECTS.md` file was created to track status, ownership, next steps, and open questions without overbuilding a full project management system.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T16:42:00Z",
+    "displayDate": "2026-03-26 16:42 UTC",
+    "type": "decision",
+    "title": "GitHub access named as an early major capability unlock",
+    "body": "Phil and Rowan agreed that direct GitHub credentials/access for Rowan was deliberately descoped from Rowan Site v0.1, but should be tracked explicitly as one of the first major capability expansions within Collaboration Infrastructure rather than left as an implicit future step.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-26T20:07:00Z",
+    "displayDate": "2026-03-26 20:07 UTC",
+    "type": "ship",
+    "title": "Broad operating model drafted",
+    "body": "Phil and Rowan expanded the collaboration framing beyond software and drafted `OPERATING_MODEL.md` as a working thesis. It treats software as the first proving ground, but includes multi-project operations, physical systems, writing/creative work, services, exposure ladders, and capability unlocks as areas to test over time rather than assume in advance.",
+    "links": []
+  },
+  {
+    "datetime": "2026-03-27T13:41:00Z",
+    "displayDate": "2026-03-27 13:41 UTC",
+    "type": "retro",
+    "title": "Operating model critique integrated into a revised thesis",
+    "body": "After reviewing a high-thinking critique of `OPERATING_MODEL.md`, Phil and Rowan converged on the view that many criticisms were valid but premature to fully solve in advance of more real collaboration. The document was revised to more explicitly frame itself as a living thesis, add status bands, tighten the multi-project layer, expand guardrails, and make retrospectives the main mechanism for evolving the model through evidence rather than theory alone.",
+    "links": [
+      {
+        "label": "OPERATING_MODEL.md",
+        "href": "../OPERATING_MODEL.md"
+      },
+      {
+        "label": "archive/OPERATING_MODEL_v1.md",
+        "href": "../archive/OPERATING_MODEL_v1.md"
+      }
+    ]
+  },
+  {
+    "datetime": "2026-03-27T16:17:00Z",
+    "displayDate": "2026-03-27 16:17 UTC",
+    "type": "ship",
+    "title": "Backlog intake process and first canonical item established",
+    "body": "Phil and Rowan turned backlog handling into a concrete operating process: Slack as transient intake surface, strict-mode approval in-thread, one markdown file per idea for the canonical backlog, simple incrementing IDs, and heartbeat as a future reminder layer for stale or waiting items. The first approved backlog item, `Better AMA viewer`, was created as a Stached-adjacent public product experiment.",
+    "links": [
+      {
+        "label": "BACKLOG_PROCESS.md",
+        "href": "../BACKLOG_PROCESS.md"
+      },
+      {
+        "label": "backlog/items/better-ama-viewer.md",
+        "href": "../backlog/items/better-ama-viewer.md"
+      }
+    ]
   }
 ]
